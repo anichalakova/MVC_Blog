@@ -8,8 +8,8 @@
             <textarea name="title" maxlength="200" cols="100" rows="2"><?= htmlspecialchars($this->post['title']) ?></textarea>
             Text:
             <textarea name="text" maxlength="5000" cols="100" rows="20"><?= htmlspecialchars($this->post['text']) ?></textarea>
-            <input type="submit" value="Edit" />
-            <a href="/posts">Cancel</a>
+            <input type="submit" value="Edit" class="submit-button"/>
+            <a href="/posts" class="cancel-link">Cancel</a>
         </form>
     <?php } ?>
     </div>

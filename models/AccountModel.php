@@ -32,7 +32,7 @@ class AccountModel extends BaseModel {
         $result = $statement->get_result()->fetch_assoc();
 
         if (password_verify($password, $result['pass_hash'])) {
-            return true;
+            return $result['id'];
         }
         return false;
 

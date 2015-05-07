@@ -8,10 +8,10 @@
                 <div class="home-post-title">
                     <?= htmlspecialchars($post['title']) ?>
                 </div>
-                <div class="home-post-body">
+                <textarea class="home-post-body">
                     <?= htmlspecialchars($post['text']) ?>
-                </div>
-                <input type="submit" value="Read more" class="read-more"/>
+                </textarea>
+                <input type="submit" value="Read more" class="submit-button"/>
             </div>
         </form>
 <?php endforeach ?>

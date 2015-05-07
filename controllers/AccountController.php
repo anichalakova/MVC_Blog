@@ -32,8 +32,9 @@ class AccountController extends BaseController {
                 $this->addErrorMessage("Registration failed!");
             }
         }
-        $this->renderView(__FUNCTION__);
         $this->title = 'Register';
+        $this->renderView(__FUNCTION__);
+
     }
 
     public function login(){
@@ -49,21 +50,24 @@ class AccountController extends BaseController {
             $isLoggedin = $this->accountModel->login($username, $password);
             if ($isLoggedin) {
                 $_SESSION['username'] = $username;
+                $_SESSION['userId']= $isLoggedin;
                 $this->addInfoMessage('Logged in!');
                 if ($username == 'admin') {
                     $_SESSION['isAdmin'] = 'true';
                 }
-                $this->redirect('posts', 'index');
+                $this->redirect('home', 'index');
             } else{
                 $this->addErrorMessage("Login failed!");
             }
         }
-        $this->renderView(__FUNCTION__);
         $this->title = 'Login';
+        $this->renderView(__FUNCTION__);
+
     }
 
     public function logout(){
         unset($_SESSION['username']);
+        unset($_SESSION['userId']);
         unset($_SESSION['isAdmin']);
         $this->addInfoMessage("Logout successful.");
         $this -> redirect('home', 'index');

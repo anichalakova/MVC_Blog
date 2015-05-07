@@ -4,8 +4,8 @@
         Title: <input type="text" name="title">
         Text: <input type="text" name="text">
         <br/>
-        <input type="submit" value="Create">
-        <a href="/posts">Cancel</a>
+        <input type="submit" value="Create" class="submit-button">
+        <a href="/posts" class="cancel-link">Cancel</a>
     </form>
 </div>
 

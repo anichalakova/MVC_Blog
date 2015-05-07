@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="/content/styles.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <title><?php echo htmlspecialchars($this->title) ?></title>
+    <link rel="stylesheet" type="text/css" href="/content/styles.css" />
+    <title><?= htmlspecialchars($this->title) ?></title>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
+<!-- <nav class="navbar navbar-default ">-->
     <div class="col-md-2">
         <a href="/"><img src="/content/images/site-logo.png" id="logo"></a>
     </div>
@@ -36,3 +37,4 @@
     <?php endif ?>
 </nav>
 <?php include_once('views/layouts/messages.php'); ?>
+

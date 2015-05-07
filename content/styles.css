@@ -1,5 +1,10 @@
-div {
-    /*border: 1px solid darkred;*/
+div, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+.register h3, .login h3{
+    color: coral;
 }
 
 .navbar-default {
@@ -19,7 +24,9 @@ div {
 }
 
 .home-post-body, .read-post-body {
-    min-height: 100px;
+    min-height: 90px;
+    overflow: hidden;
+    width: 100%;
     padding: 5px;
     background-color: #ffe8b3;
     border-radius: 0 0 5px 5px;
@@ -34,6 +41,24 @@ div {
     background-color: #ffe8b3;
     border-radius: 5px 5px 0 0;
     color: darkslategrey;
+}
+
+.read-comment-info {
+    padding: 5px;
+    color: coral;
+    font-size: 11px;
+}
+
+.read-comment-body {
+    min-height: 90px;
+    overflow: hidden;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(255, 254, 175, 0.32);
+    border: 1px solid rgba(240, 128, 128, 0.48);
+    border-radius: 5px;
+    color: darkslategrey;
+    white-space: pre-line;
 }
 
 body>nav {
@@ -73,10 +98,24 @@ ul.menu li a {
     color: coral;
 }
 
+a.cancel-link{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.register input[type="text"]{
+    background-color: rgba(255, 254, 175, 0.32);
+    color:darkslategray;
+}
 #logout{
     display: inline-block;
-    background-color: rgba(176, 196, 222, 0.32);
+    background-color: rgba(211, 211, 195, 0.5);
     color: rgba(47, 79, 79, 0.52);
+    /*background-color: rgba(255, 254, 175, 0.32);*/
+    /*color: darkslategray;*/
+    /*border: 1px solid lightgrey;*/
+    /*padding: 2px;*/
+    border-radius: 3px;
 }
 
 body>footer {
@@ -151,10 +190,11 @@ ul.info-messages, ul.error-messages {
     padding: 4px;
 }
 
-.read-more {
+.submit-button {
     margin: 5px 0 20px 0;
     padding: 0;
-    background-color: rgba(167, 191, 191, 0.11);
+    background-color: rgba(255, 254, 175, 0.32);
+    color: darkslategray;
     border: 1px solid lightgrey;
     padding: 2px;
     border-radius: 3px;
@@ -165,4 +205,15 @@ textarea {
 }
 
 .register {
+}
+
+textarea.leave-comment {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    width:100%;
+    background-color: rgba(255, 254, 175, 0.32);
+    border-color: rgba(240, 128, 128, 0.48);
+    border-radius: 5px;
+    white-space: pre-line;
+    color: darkslategray;
 }
