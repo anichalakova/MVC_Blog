@@ -1,0 +1,168 @@
+div {
+    /*border: 1px solid darkred;*/
+}
+
+.navbar-default {
+    background-color: white !important;
+    border-bottom: 3px solid coral !important;
+}
+#logo{
+    position: absolute;
+    width: 150px;
+    z-index: 0;
+}
+
+.home-post-date, .read-post-date {
+    padding: 5px;
+    color: coral;
+    font-size: 11px;
+}
+
+.home-post-body, .read-post-body {
+    min-height: 100px;
+    padding: 5px;
+    background-color: #ffe8b3;
+    border-radius: 0 0 5px 5px;
+    color: darkslategrey;
+    white-space: pre-line;
+}
+
+.home-post-title, .read-post-title {
+    margin-bottom: 1px;
+    min-height: 15px;
+    padding: 5px;
+    background-color: #ffe8b3;
+    border-radius: 5px 5px 0 0;
+    color: darkslategrey;
+}
+
+body>nav {
+    /*border-bottom: 3px solid coral !important;*/
+    margin-bottom: 10px;
+    height: 72px;
+    color: coral;
+    position: absolute;
+    z-index: 9;
+}
+
+body>nav>a {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+}
+
+ul.menu {
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 72px;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul.menu li:hover {
+    background: #ccc;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: coral;
+}
+
+#logout{
+    display: inline-block;
+    background-color: rgba(176, 196, 222, 0.32);
+    color: rgba(47, 79, 79, 0.52);
+}
+
+body>footer {
+    background: coral;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+ul.info-messages, ul.error-messages {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background: lightsteelblue;
+    position: relative;
+    z-index:10001;
+    border-radius: 5px;
+}
+
+ul.info-messages li {
+    display: block;
+}
+
+ul.error-messages {
+    width: 80%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px;
+    background: orangered;
+    position: relative;
+    z-index:10000;
+    border-radius: 5px;
+}
+
+ul.error-messages li {
+    display: block;
+}
+
+#logged-in-user {
+    display: inline-block;
+    height: 72px;
+}
+
+#logged-in-user p {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 5px 0;
+    float: right;
+}
+
+#logged-in-user form {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.home-posts, .my-posts, .read-post, .login, .register, .edit, .create, ul.info-messages, ul.error-messages {
+    margin-top: 72px;
+}
+
+ul.info-messages, ul.error-messages {
+    margin-top: 82px;
+}
+
+#my-posts {
+    border: 1px solid coral;
+    border-collapse: collapse;
+}
+
+#my-posts th, #my-posts tr, #my-posts td {
+    border: 1px solid coral;
+    padding: 4px;
+}
+
+.read-more {
+    margin: 5px 0 20px 0;
+    padding: 0;
+    background-color: rgba(167, 191, 191, 0.11);
+    border: 1px solid lightgrey;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+textarea {
+    display: block;
+}
+
+.register {
+}
