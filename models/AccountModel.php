@@ -26,12 +26,15 @@ class AccountModel extends BaseModel {
     }
 
     public function login($username, $password){
-        $statement = self::$db->prepare("SELECT id, username, pass_hash FROM Users WHERE username = ?");
+        $statement = self::$db->prepare("SELECT id, username, pass_hash, is_admin FROM Users WHERE username = ?");
         $statement->bind_param('s', $username);
         $statement->execute();
         $result = $statement->get_result()->fetch_assoc();
 
         if (password_verify($password, $result['pass_hash'])) {
+            if ($result['is_admin']) {
+                $_SESSION['isAdmin']=true;
+            }
             return $result['id'];
         }
         return false;

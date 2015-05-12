@@ -4,7 +4,7 @@ abstract class BaseController {
     protected $controller;
     protected $action;
     protected $layout = DEFAULT_LAYOUT;
-    protected $viewBag = [];
+    protected $viewBag = array();
     protected $viewRendered = false;
 
     public function __construct($controller, $action) {
@@ -59,7 +59,7 @@ abstract class BaseController {
         die;
     }
 
-    protected function redirect($controller = DEFAULT_CONTROLLER, $action = DEFAULT_ACTION, $params = []) {
+    protected function redirect($controller = DEFAULT_CONTROLLER, $action = DEFAULT_ACTION, $params = array()) {
         $url = "/$controller/$action";
         $paramsUrlEncoded = array_map('urlencode', $params);
         $paramsJoined = implode('/', $paramsUrlEncoded);
@@ -75,7 +75,7 @@ abstract class BaseController {
 
     private function addMessage($msgSessionKey, $msgText) {
         if (!isset($_SESSION[$msgSessionKey])) {
-            $_SESSION[$msgSessionKey] = [];
+            $_SESSION[$msgSessionKey] = array();
         }
         array_push($_SESSION[$msgSessionKey], $msgText);
 

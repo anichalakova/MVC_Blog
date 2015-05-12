@@ -21,7 +21,17 @@ class ReadController extends BaseController {
         $this->post = $this->postModel->find($id);
         $this->comments = $this->commentModel->getAllByPostId($id);
 
+        $currentPost = $this->post;
+        $currentPost['date']= date_format(date_create($this->post['date']), 'd M Y');
+        $this->post = $currentPost;
+
+        for ($i = 0; $i < count($this->comments); $i++) {
+            $currentComment = $this->viewBag['comments'][$i];
+            $currentComment['date'] = date_format(date_create($currentComment['date']), "d M Y H:i");
+            $this->viewBag['comments'][$i]['date'] = $currentComment['date'];
+        }
         $this->renderView();
+        $this->postModel->incrementVisits($id);
     }
 
     public function comment($id) {

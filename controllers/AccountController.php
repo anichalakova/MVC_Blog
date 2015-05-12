@@ -27,6 +27,7 @@ class AccountController extends BaseController {
             if ($registrationResult) {
                 $_SESSION['username'] = $username;
                 unset($_SESSION['isAdmin']);
+                $_SESSION['userId']= $this->accountModel->login($username, $password);
                 $this->redirect('home', 'index');
             } else{
                 $this->addErrorMessage("Registration failed!");
@@ -52,9 +53,6 @@ class AccountController extends BaseController {
                 $_SESSION['username'] = $username;
                 $_SESSION['userId']= $isLoggedin;
                 $this->addInfoMessage('Logged in!');
-                if ($username == 'admin') {
-                    $_SESSION['isAdmin'] = 'true';
-                }
                 $this->redirect('home', 'index');
             } else{
                 $this->addErrorMessage("Login failed!");

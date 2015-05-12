@@ -11,5 +11,5 @@ function renderMessages($messagesKey, $cssClass) {
         }
         echo '</ul>';
     }
-    $_SESSION[$messagesKey] = [];
+    $_SESSION[$messagesKey] = array();
 }

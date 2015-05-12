@@ -22,7 +22,7 @@ if (count($requestParts) >= 3 && $requestParts[2] != '') {
         die('Invalid action name. Use letters, digits and underscore only.');
     }
 }
-$params = [];
+$params = array();
 if (count($requestParts) >= 4) {
     $params = array_splice($requestParts, 3);
 }
