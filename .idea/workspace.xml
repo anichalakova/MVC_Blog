@@ -29,16 +29,16 @@
       <file leaf-file-name="ReadController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ReadController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-4.9615383" vertical-offset="347" max-vertical-offset="918">
+            <state line="33" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseModel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/BaseModel.php">
+      <file leaf-file-name="PostsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/PostsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+            <state line="41" column="58" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-3.1176472" vertical-offset="538" max-vertical-offset="1972">
               <folding />
             </state>
           </provider>
@@ -56,26 +56,26 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="42" selection-start="243" selection-end="243" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="731">
+            <state line="23" column="24" selection-start="1205" selection-end="1205" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/BaseController.php">
+      <file leaf-file-name="TagModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/TagModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="47" selection-start="2363" selection-end="2363" vertical-scroll-proportion="-45.96154" vertical-offset="114" max-vertical-offset="1989">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="23" selection-start="3633" selection-end="3633" vertical-scroll-proportion="0.30517712" vertical-offset="3305" max-vertical-offset="5304">
-              <folding />
+            <state line="57" column="23" selection-start="2000" selection-end="2000" vertical-scroll-proportion="-24.846153" vertical-offset="238" max-vertical-offset="1173">
+              <folding>
+                <marker date="1431216217090" expanded="true" signature="219:396" placeholder="SELECT t.tag..posts..." />
+                <marker date="1431216217090" expanded="true" signature="544:579" placeholder="SELECT * FRO..comments..." />
+                <marker date="1431216217090" expanded="true" signature="866:931" placeholder="INSERT INTO ..." />
+                <marker date="1431216217090" expanded="true" signature="932:948" placeholder="UPDATE tag =..." />
+                <marker date="1431216217090" expanded="true" signature="1395:1428" placeholder="SELECT id FR..tags..." />
+                <marker date="1431216217090" expanded="true" signature="1644:1732" placeholder="INSERT INTO ..." />
+                <marker date="1431216217090" expanded="true" signature="1733:1774" placeholder="UPDATE post_..." />
+                <marker date="1431216217090" expanded="true" signature="2123:2238" placeholder="DELETE FROM ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +84,15 @@
         <entry file="file://$PROJECT_DIR$/views/posts/edit.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="36" column="18" selection-start="2118" selection-end="2118" vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="66" selection-start="420" selection-end="420" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -98,28 +107,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/default/header.php">
+      <file leaf-file-name="PostModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/PostModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="145" selection-end="145" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="833">
-              <folding />
+            <state line="30" column="61" selection-start="1062" selection-end="1062" vertical-scroll-proportion="2.6153846" vertical-offset="578" max-vertical-offset="1241">
+              <folding>
+                <marker date="1431987150276" expanded="true" signature="113:132" placeholder="SELECT * FRO..posts..." />
+                <marker date="1431987150276" expanded="true" signature="336:372" placeholder="SELECT * FRO..posts..." />
+                <marker date="1431987150276" expanded="true" signature="628:669" placeholder="SELECT * FRO..posts..." />
+                <marker date="1431987150276" expanded="true" signature="1014:1059" placeholder="INSERT INTO ..." />
+                <marker date="1431987150276" expanded="true" signature="1380:1427" placeholder="UPDATE posts..." />
+                <marker date="1431987150276" expanded="true" signature="1655:1685" placeholder="DELETE FROM ..." />
+                <marker date="1431987150276" expanded="true" signature="1900:1957" placeholder="SELECT * FRO..posts..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostModel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/PostModel.php">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="77" selection-start="2136" selection-end="2139" vertical-scroll-proportion="-9.0" vertical-offset="854" max-vertical-offset="1241">
-              <folding>
-                <marker date="1431265208410" expanded="true" signature="113:132" placeholder="SELECT * FRO..posts..." />
-                <marker date="1431265208410" expanded="true" signature="336:372" placeholder="SELECT * FRO..posts..." />
-                <marker date="1431265208410" expanded="true" signature="628:669" placeholder="SELECT * FRO..posts..." />
-                <marker date="1431265208410" expanded="true" signature="986:1028" placeholder="INSERT INTO ..." />
-                <marker date="1431265208410" expanded="true" signature="1349:1396" placeholder="UPDATE posts..." />
-                <marker date="1431265208410" expanded="true" signature="1624:1654" placeholder="DELETE FROM ..." />
-                <marker date="1431265208410" expanded="true" signature="1869:1926" placeholder="SELECT * FRO..posts..." />
-              </folding>
+            <state line="208" column="1" selection-start="3623" selection-end="3623" vertical-scroll-proportion="-1.5212922" vertical-offset="4572" max-vertical-offset="5253">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,14 +170,14 @@
         <option value="$PROJECT_DIR$/views/posts/edit.php" />
         <option value="$PROJECT_DIR$/models/TagModel.php" />
         <option value="$PROJECT_DIR$/controllers/AccountController.php" />
-        <option value="$PROJECT_DIR$/controllers/PostsController.php" />
         <option value="$PROJECT_DIR$/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/controllers/ReadController.php" />
-        <option value="$PROJECT_DIR$/models/PostModel.php" />
         <option value="$PROJECT_DIR$/views/read/index.php" />
-        <option value="$PROJECT_DIR$/views/home/index.php" />
         <option value="$PROJECT_DIR$/views/layouts/default/header.php" />
         <option value="$PROJECT_DIR$/views/posts/index.php" />
+        <option value="$PROJECT_DIR$/views/home/index.php" />
+        <option value="$PROJECT_DIR$/controllers/PostsController.php" />
+        <option value="$PROJECT_DIR$/models/PostModel.php" />
         <option value="$PROJECT_DIR$/content/styles.css" />
       </list>
     </option>
@@ -441,7 +450,7 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="false" name="XAMPP" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="XAMPP_8080">
+    <configuration default="false" name="XAMPP" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="FIREFOX" server_name="XAMPP_8080">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -488,7 +497,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987013" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39697802" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39697802" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -564,11 +573,16 @@
           <line>64</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/models/PostModel.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="102" />
+      <option name="time" value="107" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -793,37 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/TagModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1285" selection-end="1285" vertical-scroll-proportion="-5.230769" vertical-offset="510" max-vertical-offset="1173">
-          <folding>
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="SELECT t.tag..posts..." />
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="SELECT c.com..comments..." />
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..comments..." />
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="UPDATE tag =..." />
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="SELECT id FR..tags..." />
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="UPDATE post_..." />
-            <marker date="1431216217090" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/PostsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="74" selection-start="482" selection-end="482" vertical-scroll-proportion="-6.5384617" vertical-offset="102" max-vertical-offset="1972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="66" selection-start="420" selection-end="420" vertical-scroll-proportion="-4.576923" vertical-offset="119" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="0" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-30.076923" vertical-offset="0" max-vertical-offset="1003">
@@ -845,38 +828,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ReadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-4.9615383" vertical-offset="347" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/PostModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="77" selection-start="2136" selection-end="2139" vertical-scroll-proportion="-9.0" vertical-offset="854" max-vertical-offset="1241">
-          <folding>
-            <marker date="1431265208410" expanded="true" signature="113:132" placeholder="SELECT * FRO..posts..." />
-            <marker date="1431265208410" expanded="true" signature="336:372" placeholder="SELECT * FRO..posts..." />
-            <marker date="1431265208410" expanded="true" signature="628:669" placeholder="SELECT * FRO..posts..." />
-            <marker date="1431265208410" expanded="true" signature="986:1028" placeholder="INSERT INTO ..." />
-            <marker date="1431265208410" expanded="true" signature="1349:1396" placeholder="UPDATE posts..." />
-            <marker date="1431265208410" expanded="true" signature="1624:1654" placeholder="DELETE FROM ..." />
-            <marker date="1431265208410" expanded="true" signature="1869:1926" placeholder="SELECT * FRO..posts..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/read/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="48" selection-start="155" selection-end="155" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="243" selection-end="243" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
@@ -895,6 +849,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ReadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/TagModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="23" selection-start="2000" selection-end="2000" vertical-scroll-proportion="-24.846153" vertical-offset="238" max-vertical-offset="1173">
+          <folding>
+            <marker date="1431216217090" expanded="true" signature="219:396" placeholder="SELECT t.tag..posts..." />
+            <marker date="1431216217090" expanded="true" signature="544:579" placeholder="SELECT * FRO..comments..." />
+            <marker date="1431216217090" expanded="true" signature="866:931" placeholder="INSERT INTO ..." />
+            <marker date="1431216217090" expanded="true" signature="932:948" placeholder="UPDATE tag =..." />
+            <marker date="1431216217090" expanded="true" signature="1395:1428" placeholder="SELECT id FR..tags..." />
+            <marker date="1431216217090" expanded="true" signature="1644:1732" placeholder="INSERT INTO ..." />
+            <marker date="1431216217090" expanded="true" signature="1733:1774" placeholder="UPDATE post_..." />
+            <marker date="1431216217090" expanded="true" signature="2123:2238" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="66" selection-start="420" selection-end="420" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/posts/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="45" selection-start="160" selection-end="160" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="748">
@@ -902,9 +886,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="58" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-3.1176472" vertical-offset="538" max-vertical-offset="1972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/PostModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="61" selection-start="1062" selection-end="1062" vertical-scroll-proportion="2.6153846" vertical-offset="578" max-vertical-offset="1241">
+          <folding>
+            <marker date="1431987150276" expanded="true" signature="113:132" placeholder="SELECT * FRO..posts..." />
+            <marker date="1431987150276" expanded="true" signature="336:372" placeholder="SELECT * FRO..posts..." />
+            <marker date="1431987150276" expanded="true" signature="628:669" placeholder="SELECT * FRO..posts..." />
+            <marker date="1431987150276" expanded="true" signature="1014:1059" placeholder="INSERT INTO ..." />
+            <marker date="1431987150276" expanded="true" signature="1380:1427" placeholder="UPDATE posts..." />
+            <marker date="1431987150276" expanded="true" signature="1655:1685" placeholder="DELETE FROM ..." />
+            <marker date="1431987150276" expanded="true" signature="1900:1957" placeholder="SELECT * FRO..posts..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="1205" selection-end="1205" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="23" selection-start="3633" selection-end="3633" vertical-scroll-proportion="0.30517712" vertical-offset="3305" max-vertical-offset="5304">
+        <state line="208" column="1" selection-start="3623" selection-end="3623" vertical-scroll-proportion="-1.5212922" vertical-offset="4572" max-vertical-offset="5253">
           <folding />
         </state>
       </provider>

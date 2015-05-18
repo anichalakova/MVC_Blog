@@ -26,9 +26,9 @@ class PostModel extends BaseModel {
         if ($text == '' || $title =='') {
             return false;
         }
-
+        var_dump(self::$db);
         $statement = self::$db->prepare(
-            "INSERT INTO posts VALUES(NULL ,?,?, NULL )");
+            "INSERT INTO posts VALUES(NULL ,?,?, NULL, 0 )");
         $statement->bind_param("ss", $title, $text);
         $statement->execute();
         return $statement->affected_rows > 0;

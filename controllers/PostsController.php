@@ -93,7 +93,7 @@ class PostsController extends BaseController{
         $this->redirect('posts', 'index');
     }
 
-    public function deleteTags($id) {
+    public function deleteTagsFromPost($id) {
         $this->authorizeAdmin();
         if ($this->isPost()) {
             $tagsString = $_POST['remove-tags'];

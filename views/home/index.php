@@ -13,9 +13,9 @@
                     <div class="home-post-title">
                         <?= htmlspecialchars($post['title']) ?>
                     </div>
-                    <textarea class="home-post-body">
+                    <div class="home-post-body">
                         <?= htmlspecialchars($post['text']) ?>
-                    </textarea>
+                    </div>
                     <div class="home-post-tags">
                     <p>Tags: </p>
                     <?php for ($i = 0; $i < count($post['tags']); $i++) {

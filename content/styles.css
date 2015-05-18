@@ -12,6 +12,7 @@ div, textarea {
     background-color: white;
     border-bottom: 3px solid coral;
 }
+
 #logo{
     position: absolute;
     width: 150px;
@@ -21,67 +22,13 @@ div, textarea {
 #logout{
     margin-left: -15px;
     margin-top: -3px;
-}
-
-.home-post-info, .read-post-info, .home-post-tags, .read-comment-info {
-    padding: 5px 5px 0 5px;
-    color: coral;
-    font-size: 11px;
-}
-
-.read-post-visits, .home-post-visits{
     display: inline-block;
-    padding: 5px;
-    color: coral;
-    font-size: 11px;
-    float: right;
-}
-
-.home-post-body, .read-post-body {
-    min-height: 90px;
-    overflow: hidden;
-    width: 100%;
-    padding: 5px;
-    background-color: #ffe8b3;
-    border-radius: 0 0 5px 5px;
-    color: darkslategrey;
-    white-space: pre-line;
-}
-
-.home-post-title, .read-post-title {
-    margin-bottom: 3px;
-    min-height: 15px;
-    padding: 5px;
-    background-color: #ffe8b3;
-    border-radius: 5px 5px 0 0;
-    color: darkslategrey;
-}
-.home-post-tags {
-    padding: 5px 5px 0px 5px;
-    color: coral;
-    font-size: 11px;
-    max-height: 20px;
-}
-
-.home-post-tags p {
-    display: inline-block;
-}
-
-.read-comment-body {
-    min-height: 90px;
-    overflow: hidden;
-    width: 100%;
-    padding: 5px;
-    background-color: rgba(255, 254, 175, 0.32);
-    border: 1px solid rgba(240, 128, 128, 0.48);
-    border-radius: 5px;
-    color: darkslategrey;
-    white-space: pre-line;
-    margin-bottom: 10px;
+    background-color: rgba(211, 211, 195, 0.5);
+    color: rgba(47, 79, 79, 0.52);
+    border-radius: 3px;
 }
 
 body>nav {
-    /*border-bottom: 3px solid coral !important;*/
     margin-bottom: 10px;
     height: 72px;
     color: coral;
@@ -117,60 +64,31 @@ ul.menu li a {
     color: coral;
 }
 
-a.cancel-link{
-    text-decoration: none;
-    color: darkslategray;
+.search-group{
+    display:inline-block;
+    margin: 5px 0;
+    padding: 5px,0;
+    height: 35px;
 }
 
-.register input[type="text"]{
-    background-color: rgba(255, 254, 175, 0.32);
-    color:darkslategray;
-}
-#logout{
-    display: inline-block;
-    background-color: rgba(211, 211, 195, 0.5);
-    color: rgba(47, 79, 79, 0.52);
-    /*background-color: rgba(255, 254, 175, 0.32);*/
-    /*color: darkslategray;*/
-    /*border: 1px solid lightgrey;*/
-    /*padding: 2px;*/
-    border-radius: 3px;
-}
-
-body>footer {
-    background: coral;
-    margin-top: 10px;
+#search-button{
+    margin:0;
     padding: 5px;
-    text-align: center;
+    background-color: rgba(255, 254, 175, 0.32);
+    color: darkslategray;
+    border: 1px solid lightgrey;
+    border-radius: 0 3px 3px 0;
+    display: inline-block;
+    height: 35px;
+    width: 30%;
 }
 
-ul.info-messages, ul.error-messages {
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
-    background: lightsteelblue;
-    position: relative;
-    z-index:10001;
-    border-radius: 5px;
-}
-
-ul.info-messages li {
-    display: block;
-}
-
-ul.error-messages {
-    width: 80%;
-    height: 40px;
-    margin: 10px auto;
-    padding: 10px;
-    background: orangered;
-    position: relative;
-    z-index:10000;
-    border-radius: 5px;
-}
-
-ul.error-messages li {
-    display: block;
+#search-field{
+    border-radius: 3px 0 0 3px;
+    display: inline-block;
+    margin:5px 0;
+    padding: 5px 10px 5px 5px;
+    height: 30px;
 }
 
 #logged-in-user {
@@ -189,6 +107,74 @@ ul.error-messages li {
     display: inline-block;
     margin: 5px 0;
     padding: 5px 0;
+}
+
+.home-post-info, .read-post-info, .home-post-tags, .read-comment-info {
+    padding: 5px 5px 0 5px;
+    color: coral;
+    font-size: 11px;
+}
+
+.read-post-visits, .home-post-visits{
+    display: inline-block;
+    padding: 5px;
+    color: coral;
+    font-size: 11px;
+    float: right;
+}
+
+.home-post-body, .read-post-body {
+    min-height: 90px;
+    overflow: hidden;
+    width: 100%;
+    padding: 5px;
+    background-color: #ffe8b3;
+    border-radius: 0 0 5px 5px;
+    color: darkslategrey;
+    white-space: pre-line;
+}
+
+.home-post-title, .read-post-title {
+    margin-bottom: 3px;
+    min-height: 15px;
+    padding: 5px;
+    background-color: #ffe8b3;
+    border-radius: 5px 5px 0 0;
+    color: darkslategrey;
+}
+
+.home-post-tags {
+    padding: 5px 5px 0px 5px;
+    color: coral;
+    font-size: 11px;
+    max-height: 20px;
+}
+
+.home-post-tags p {
+    display: inline-block;
+}
+
+.home-post-body{
+    border: none;
+    max-height: 50px;
+}
+
+.read-comment-body {
+    min-height: 90px;
+    overflow: hidden;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(255, 254, 175, 0.32);
+    border: 1px solid rgba(240, 128, 128, 0.48);
+    border-radius: 5px;
+    color: darkslategrey;
+    white-space: pre-line;
+    margin-bottom: 10px;
+}
+
+.register input[type="text"]{
+    background-color: rgba(255, 254, 175, 0.32);
+    color:darkslategray;
 }
 
 .home-posts, .my-posts, .read-post, .login, .register, .my-posts, .edit, .create, ul.info-messages, ul.error-messages {
@@ -218,22 +204,8 @@ ul.error-messages li {
     overflow: hidden;
 }
 
-.submit-button {
-    margin: 5px 0 20px 0;
-    padding: 0;
-    background-color: rgba(255, 254, 175, 0.32);
-    color: darkslategray;
-    border: 1px solid lightgrey;
-    padding: 2px;
-    border-radius: 3px;
-    min-width: 40px;
-}
-
 textarea {
     display: block;
-}
-
-.register {
 }
 
 textarea.leave-comment {
@@ -279,29 +251,54 @@ textarea.leave-comment {
     margin-right: 5px;
 }
 
-#search-button{
-    margin:0;
-    padding: 5px;
+.submit-button {
+    margin: 5px 0 20px 0;
+    padding: 0;
     background-color: rgba(255, 254, 175, 0.32);
     color: darkslategray;
     border: 1px solid lightgrey;
-    border-radius: 0 3px 3px 0;
-    display: inline-block;
-    height: 35px;
-    width: 30%;
+    padding: 2px;
+    border-radius: 3px;
+    min-width: 40px;
 }
 
-#search-field{
-    border-radius: 3px 0 0 3px;
-    display: inline-block;
-    margin:5px 0;
-    padding: 5px 10px 5px 5px;
-    height: 30px;
+a.cancel-link{
+    text-decoration: none;
+    color: darkslategray;
 }
 
-.search-group{
-    display:inline-block;
-    margin: 5px 0;
-    padding: 5px,0;
-    height: 35px;
+body>footer {
+    background: coral;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+ul.info-messages, ul.error-messages {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background: lightsteelblue;
+    position: relative;
+    z-index:10001;
+    border-radius: 5px;
+}
+
+ul.info-messages li {
+    display: block;
+}
+
+ul.error-messages {
+    width: 80%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px;
+    background: orangered;
+    position: relative;
+    z-index:10000;
+    border-radius: 5px;
+}
+
+ul.error-messages li {
+    display: block;
 }
