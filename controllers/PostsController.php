@@ -15,6 +15,7 @@ class PostsController extends BaseController{
         $this->page = $page;
         $this->pageSize = $pageSize;
         $this->posts = $this->postModel->getAllWithPaging($page, $pageSize);
+        echo('this->posts = ');
         $this->page = $page;
         $this->pageSize=$pageSize;
         $this->totalpostsNumber=count($this->postModel->getAll());

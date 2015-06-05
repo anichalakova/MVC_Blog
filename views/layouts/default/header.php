@@ -22,7 +22,7 @@
         </ul>
     </ul>
      <div class="col-md-3">
-         <form method="POST" action="/home/index">
+         <form method="POST" action="/home/search">
             <input type="text" name="search-field" id="search-field" placeholder="Enter tag to search...">
          </form>
      </div>

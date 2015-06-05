@@ -28,7 +28,7 @@
         <?php endforeach ?>
         <div class="col-md-12 pagination">
             <?php  if ($this->page>1):?>
-                <a href="home/index/<?= $this->page-1?>/<?= $this->pageSize?>/">Previous</a>
+                <a href="/home/index/<?= $this->page-1?>/<?= $this->pageSize?>/">Previous</a>
             <?php endif ?>
             <?php  if ($this->pageSize*($this->page) <$this->totalpostsNumber):?>
                 <a href="/home/index/<?= $this->page+1?>/<?= $this->pageSize?>/">Next</a>

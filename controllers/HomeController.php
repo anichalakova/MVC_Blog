@@ -19,11 +19,29 @@ class HomeController extends BaseController {
             $currentPost = $this->viewBag['posts'][$i];
             $currentPost['date'] = date_format(date_create($currentPost['date']), "d M Y");
             $this->viewBag['posts'][$i]['date'] = $currentPost['date'];
-
             $currentPost['tags'] = $this->tagModel->getAllByPostId($currentPost['id']);
             $this->viewBag['posts'][$i]['tags'] = $currentPost['tags'];
         }
 
         $this->renderView();
+    }
+
+    public function search($page=1, $pageSize=5) {
+        $tag = $_POST['search-field'];
+        $this->page = $page;
+        $this->pageSize=$pageSize;
+        $this->totalpostsNumber=count($this->postModel->getAll());
+        var_dump($tag) ;
+        $this->posts = $this->postModel->findByTag($tag);
+
+        for ($i = 0; $i < count($this->posts); $i++) {
+            $currentPost = $this->viewBag['posts'][$i];
+            $currentPost['date'] = date_format(date_create($currentPost['date']), "d M Y");
+            $this->viewBag['posts'][$i]['date'] = $currentPost['date'];
+            $currentPost['tags'] = $this->tagModel->getAllByPostId($currentPost['id']);
+            $this->viewBag['posts'][$i]['tags'] = $currentPost['tags'];
+        }
+
+        $this->renderView('index');
     }
 }

@@ -29,7 +29,7 @@
                 </div>
             </form>
             <div class="col-md-12 tRow">
-                <form method="POST" action="/posts/deleteTags/<?= $this->post['id'] ?>">
+                <form method="POST" action="/posts/deleteTagsFromPost/<?= $this->post['id'] ?>">
                     <label for="remove-tags" class="col-md-1">Remove tags:</label>
                     <input type="text" class="col-md-9" name="remove-tags" id="remove-tags" placeholder="Enter tags, separated by space:"/>
                     <input type="submit" value="Remove" class="submit-button"/>

@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ani
- * Date: 5/8/15
- * Time: 7:33 PM
- */
-
 class TagModel extends BaseModel {
 
     public function getAllByPostId($postId) {
@@ -57,7 +50,6 @@ class TagModel extends BaseModel {
         }
         return $result;
     }
-
 
     public function deleteTagFromPost($tagName, $post_id) {
         $statement = self::$db->prepare(
